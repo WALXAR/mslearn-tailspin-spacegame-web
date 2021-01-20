@@ -7,7 +7,7 @@ variables:
   dotnetSdkVersion: '3.1.300'
 
 stages:
-- stage: 'build the project'  
+- stage: 'Build'  
   jobs: 
     - job: 'Build'
       pool:
